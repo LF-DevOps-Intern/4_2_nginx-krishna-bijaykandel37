@@ -8,7 +8,7 @@ To allow Nginx services are to be allowed in the firewall.
 ==> Ufw allow ‘Nginx HTTP’
 
 To check Nginx status:
-vSudo systemctl status nginx
+==> Sudo systemctl status nginx
 
 To copy our application  to /var/www/html/:
 ==> Cp NginxTask/ /var/www/html/
